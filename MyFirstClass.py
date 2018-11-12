@@ -11,4 +11,7 @@ class Complex:
             print('hello: ' + something)
             self.printwasused = True
 
+            def wasprintused(self):
+                return self.printwasused
+
 
